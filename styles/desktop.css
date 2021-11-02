@@ -1,0 +1,27 @@
+@media(min-width: 1100px) {
+    .header__nav-mobile {
+        display: none;
+    }
+
+    .header {
+        background-image: url(../images/banner/product.png);
+        background-size: cover;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        color: var(--color-alfa);
+    }
+
+    .header__cta {
+        display: block;
+        text-decoration: none;
+
+    }
+}

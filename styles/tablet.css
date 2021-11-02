@@ -1,0 +1,186 @@
+@media(min-width: 550px) {
+
+    .header__logo {
+        width: 15%;
+        height: 8%;
+    }
+
+    .header__nav-mobile {
+        width: 7%;
+        height: 5%;
+        padding: 2% 0 2% 3%;
+    }
+
+    .product__content {
+        background-position: bottom;
+        min-height: 45vh;
+    }
+
+    .product__wrapper {
+        justify-content: space-between;
+        display: flex;
+        max-width: 70%;
+        padding-top: 5%;
+    }
+
+    .product__text {
+        font-size: 1rem;
+    }
+
+    .product__picture-container {
+        padding-top: 4%;
+    }
+
+    .product__wrapper {
+        flex-basis: 50%;
+    }
+
+    .product__picture {
+        width: 100%;
+        height: 105%;
+    }
+
+    .features {
+        padding-top: 10%;
+    }
+
+    .features__list {
+        max-width: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 13%;
+    }
+
+    .features__item {
+        flex-basis: 100%;
+    }
+
+    .features__icon {
+        width: 40%;
+        height: 55%;
+        padding: 3% 0;
+        border-radius: 15%;
+    }
+
+    .features__picture {
+        height: 70%;
+        width: 60%;
+    }
+
+    .details {
+        display: flex;
+        max-width: 70%;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .details__description,
+    .details__picture-container {
+        flex-basis: 100%;
+
+    }
+
+    .details__cta {
+        width: 60%;
+    }
+
+    .review__example {
+        padding: 12% 7%;
+    }
+
+    .pricing {
+        min-height: 60vh;
+    }
+
+    .pricing__list {
+        flex-direction: row;
+        max-width: 70%;
+        padding-bottom: 10%;
+    }
+
+    .pricing__element {
+        padding: 5% 0;
+    }
+
+
+    .pricing__items {
+        flex-basis: 100%;
+        min-height: 28vh;
+    }
+
+    .pricing__infos {
+        padding: 7% 20% 0 20%;
+        flex-basis: 100%;
+    }
+
+    .pricing__items--team {
+        z-index: 1;
+        transform: scale(1.1);
+        box-shadow: 5px 0px 20px #efeaea;
+        background-color: var(--color-alfa);
+    }
+
+    .pricing__cta-container {
+        padding-top: 5%;
+    }
+
+    .pricing__name {
+        width: 100%;
+    }
+
+    .pricing__cta {
+        width: 40%;
+    }
+
+    .download {
+        text-align: start;
+    }
+
+    .download__title {
+        width: 70%;
+    }
+
+    .download__sources {
+        justify-content: flex-end;
+        max-width: 60%;
+    }
+
+    .download__icon {
+        height: 30%;
+        flex-basis: 0;
+    }
+
+    .summary__container {
+        max-width: 70%;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "motto services"
+            "link downloads"
+    }
+
+    .summary__motto {
+        padding-top: 12%;
+        padding-bottom: 0;
+    }
+
+    .summary__services {
+        padding-top: 12%;
+    }
+
+    .motto__title {
+        padding-bottom: 3%;
+    }
+
+    .motto__text {
+        font-size: 0.8rem;
+        padding-bottom: 7%;
+    }
+
+    .summary__downloads {
+        padding: 0;
+    }
+
+
+}

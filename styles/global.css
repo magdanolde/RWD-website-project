@@ -1,0 +1,66 @@
+:root {
+    --color-alfa: #ffffff;
+    --color-beta: #111111;
+    --color-sigma: #e9f4fe;
+    --color-gamma: #5db2ff;
+    --color-omega: #0181f5;
+    --color-lambda: #fef4ee;
+    --color-psi: #fdb16b;
+    --color-epsylon: #e2a701;
+    --color-delta: #e8fcf1;
+    --color-kappa: #27d568;
+    --color-zeta: #e9f4fe;
+    --color-mu: #37ebed;
+    --color-eta: #1f1f1f;
+    --color-lota: #565656;
+}
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.product__title,
+.features__title,
+.details__title,
+.review__title,
+.pricing__title,
+.download__title {
+    font-size: 1.8rem;
+}
+
+.motto__title,
+.services__title,
+.downloads__title,
+.links__title {
+    font-size: 1.5rem;
+}
+
+.features__pros,
+.review__text {
+    font-size: 1.2rem;
+}
+
+.review__stars,
+.pricing__cta,
+.footer__text,
+.services__item,
+.links__item,
+.downloads__item,
+.product__text {
+    font-size: 0.8rem;
+}
+
+.footer__text,
+.footer__word {
+    font-size: 0.7rem;
+}
