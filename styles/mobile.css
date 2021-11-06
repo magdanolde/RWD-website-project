@@ -87,9 +87,9 @@
 }
 
 .features__icon {
-    width: 25%;
-    height: 38%;
-    padding: 3% 0;
+    width: 20%;
+    height: 40%;
+    padding: 4% 0;
     border-radius: 15%;
     background-color: var(--color-kappa);
     margin: 0 auto;
@@ -320,7 +320,7 @@
 .social__icon {
     width: 40%;
     height: 50%;
-    padding: 20% 0 10% 0;
+    padding: 30% 0 10% 0;
 }
 
 .summary__motto {
@@ -328,7 +328,8 @@
     grid-area: motto;
 }
 
-.motto__title {
+.motto__title,
+.motto__text {
     padding-bottom: 5%;
 }
 
@@ -366,5 +367,5 @@
 
 .footer__word {
     color: var(--color-omega);
-    display: block;
+
 }

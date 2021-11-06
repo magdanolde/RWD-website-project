@@ -3,25 +3,194 @@
         display: none;
     }
 
+
     .header {
-        background-image: url(../images/banner/product.png);
+        background-image: url(../images/banner/banner.png);
         background-size: cover;
+        background-position: top left;
+        min-height: 8vh;
+    }
+
+    .header__menu {
+        padding-top: 1%;
+    }
+
+
+    .header__logo {
+        width: 8%;
+        height: 5%;
+    }
+
+    .product__title {
+        padding: 20% 0 4% 0;
+    }
+
+    .product__wrapper {
+        justify-content: space-between;
+        display: flex;
+        max-width: 90%;
+        padding-top: 5%;
     }
 
     .nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .nav__item {
+        padding: 2%;
+        position: relative;
     }
 
     .nav__link {
         text-decoration: none;
         color: var(--color-alfa);
+        padding: 0 2%;
+    }
+
+
+    .nav__span {
+        transform: rotate(90deg);
+        display: block;
+        position: absolute;
+        left: 100%;
+        top: 19%;
     }
 
     .header__cta {
         display: block;
         text-decoration: none;
+        border-radius: 5%;
+        text-align: center;
+        width: 10%;
+        padding: 1%;
+        color: var(--color-alfa);
+        background-color: var(--color-xi);
 
+    }
+
+    .features__icon {
+        width: 25%;
+        height: 50%;
+        border-radius: 15%;
+    }
+
+    .details {
+        max-width: 90%;
+        justify-content: space-between;
+        min-height: 40vh;
+    }
+
+    .details__text {
+        max-width: 70%;
+    }
+
+    .details__cta {
+        width: 30%;
+        padding: 2% 1%;
+    }
+
+
+    .pricing__list {
+        flex-direction: row;
+        max-width: 90%;
+        padding-bottom: 10%;
+    }
+
+    .pricing__items {
+        min-height: 35vh;
+    }
+
+    .pricing__element--team {
+        padding: 7% 0;
+    }
+
+    .download {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        min-height: 40vh;
+    }
+
+    .download__title {
+        width: auto;
+        padding: 0 0 3% 5%;
+    }
+
+    .download__sources {
+        justify-content: center;
+        width: auto;
+        padding: 0 5% 3% 0;
+
+    }
+
+    .summary {
+        min-height: 38vh;
+    }
+
+    .summary__container {
+        padding-top: 8%;
+        max-width: 90%;
+        column-gap: normal;
+        grid-template-rows: 1fr;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "motto services link downloads"
+    }
+
+    .summary__motto {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .summary__services {
+        padding-top: 0;
+    }
+
+    .title {
+        padding-bottom: 10%;
+    }
+
+    .motto__title {
+        padding-bottom: 5%;
+    }
+
+    .motto__text {
+        padding-bottom: 0;
+        max-width: 50%;
+    }
+
+
+    .social__circle {
+        width: 15%;
+        height: 80%;
+        margin: 8% 1%;
+    }
+
+    .product__title,
+    .features__title,
+    .details__title,
+    .review__title,
+    .pricing__title,
+    .download__title {
+        font-size: 2.5rem;
+    }
+
+    .services__item,
+    .links__item,
+    .downloads__item,
+    .motto__text {
+        font-size: 0.9rem;
+    }
+
+    .review__text {
+        font-size: 1.3rem;
+    }
+
+    .review__stars {
+        font-size: 1rem;
     }
 }

@@ -57,9 +57,8 @@
 
     .features__icon {
         width: 40%;
-        height: 55%;
-        padding: 3% 0;
-        border-radius: 15%;
+        height: 45%;
+        padding: 3%;
     }
 
     .features__picture {
@@ -73,6 +72,7 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        padding-bottom: 5%;
     }
 
     .details__description,
@@ -80,6 +80,11 @@
         flex-basis: 100%;
 
     }
+
+    .details__text {
+        padding-bottom: 7%;
+    }
+
 
     .details__cta {
         width: 60%;
@@ -100,6 +105,10 @@
     }
 
     .pricing__element {
+        padding: 9% 0;
+    }
+
+    .pricing__element--team {
         padding: 5% 0;
     }
 
@@ -125,8 +134,10 @@
         padding-top: 5%;
     }
 
+
     .pricing__name {
         width: 100%;
+        padding: 6% 0;
     }
 
     .pricing__cta {
@@ -153,8 +164,9 @@
 
     .summary__container {
         max-width: 70%;
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20%;
         grid-template-areas:
             "motto services"
             "link downloads"
@@ -176,6 +188,10 @@
     .motto__text {
         font-size: 0.8rem;
         padding-bottom: 7%;
+    }
+
+    .social__circle {
+        width: 30%;
     }
 
     .summary__downloads {
