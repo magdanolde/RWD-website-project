@@ -72,12 +72,6 @@
 
     }
 
-    .features__icon {
-        width: 25%;
-        height: 50%;
-        border-radius: 15%;
-    }
-
     .details {
         max-width: 90%;
         justify-content: space-between;
@@ -112,7 +106,7 @@
         justify-content: space-between;
         flex-direction: row;
         align-items: center;
-        min-height: 40vh;
+        min-height: 50vh;
     }
 
     .download__title {
@@ -151,7 +145,7 @@
     }
 
     .title {
-        padding-bottom: 10%;
+        padding-bottom: 8%;
     }
 
     .motto__title {
@@ -168,6 +162,10 @@
         width: 15%;
         height: 80%;
         margin: 8% 1%;
+    }
+
+    .summary__social {
+        padding-bottom: 30%;
     }
 
     .product__title,

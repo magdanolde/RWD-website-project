@@ -302,25 +302,24 @@
 
 .summary__social {
     display: flex;
-    width: 50%;
-    padding-bottom: 5%;
+    width: 40%;
+    padding-bottom: 3%;
 }
 
 
 .social__circle {
     background-color: var(--color-lota);
     border-radius: 50%;
-    width: 22%;
+    width: 25%;
     text-align: center;
     align-self: center;
-    height: 29%;
     margin: 2%;
 }
 
 .social__icon {
     width: 40%;
-    height: 50%;
-    padding: 30% 0 10% 0;
+    height: 60%;
+    padding: 25% 0 10% 0;
 }
 
 .summary__motto {

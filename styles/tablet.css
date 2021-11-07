@@ -56,14 +56,14 @@
     }
 
     .features__icon {
-        width: 40%;
-        height: 45%;
-        padding: 3%;
+        width: 80px;
+        height: 80px;
     }
 
     .features__picture {
-        height: 70%;
-        width: 60%;
+        height: 100%;
+        width: 50%;
+        margin: 0 auto;
     }
 
     .details {
@@ -191,7 +191,12 @@
     }
 
     .social__circle {
-        width: 30%;
+        width: 33%;
+    }
+
+    .summary__social {
+        width: 50%;
+
     }
 
     .summary__downloads {
