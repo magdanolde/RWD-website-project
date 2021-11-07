@@ -3,11 +3,17 @@
         display: none;
     }
 
-
-    .header {
+    .main__wrapper {
         background-image: url(../images/banner/banner.png);
         background-size: cover;
-        background-position: top left;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .header {
+        background-color: transparent;
         min-height: 8vh;
     }
 
@@ -25,8 +31,12 @@
         padding: 20% 0 4% 0;
     }
 
+    .product__content {
+        background-image: none;
+    }
+
     .product__wrapper {
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
         max-width: 90%;
         padding-top: 5%;
@@ -71,6 +81,12 @@
         background-color: var(--color-xi);
 
     }
+
+    .features__icon {
+        width: 100px;
+        height: 100px;
+    }
+
 
     .details {
         max-width: 90%;
