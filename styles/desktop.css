@@ -1,7 +1,9 @@
 @media(min-width: 1100px) {
-    .header__nav-mobile {
+    label
+    {
         display: none;
     }
+
 
     .main__wrapper {
         background-image: url(../images/banner/banner.png);
@@ -23,8 +25,127 @@
 
 
     .header__logo {
-        width: 8%;
-        height: 5%;
+        width: 13%;
+        height: 14%;
+    }
+
+
+    #toggle:checked+.nav { 
+        position: static;
+    display: flex;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    text-align: start;
+    }
+
+    #toggle:not(:checked)+.nav{
+        position: static;
+        display: flex;
+        background-color: transparent;
+        height: auto;
+        width: auto;
+        text-align: start;
+    }
+
+    .header__nav {
+        height: auto;
+        width: auto;
+        padding: 0;
+    }
+
+    .nav__item {
+        padding: 0 5%;
+        position: relative;
+    }
+
+    .nav__item:first-child{
+        padding-left: 0%;
+    }
+
+    .nav__link {
+        padding: 0 2%;
+        color: var(--color-alfa);
+    }
+    .nav__link:hover,
+    .nav__link--arrow:hover {
+        text-decoration: none;
+        color: var(--color-alfa);
+        padding: 0 2%;
+        text-decoration: underline;
+    }
+
+    .nav__link--arrow {
+        text-decoration: none;
+        color: var(--color-alfa);
+        padding: 0 2%;
+    }
+
+    .nav__link--arrow:after {
+        content: '>';
+        transform: rotate(90deg);
+        position: absolute;
+        height: 25%;
+        top: 20%;
+        left: 95%;
+        font-size: 1rem;
+        color: var(--color-alfa);
+    }
+
+    .nav__dropdown {
+        list-style: none;
+        position: absolute;
+        display: none;
+        top: 65%;
+        left: 23%;
+
+    }
+
+    .dropdown__link {
+        width: 20%;
+        display: block;
+        background-color: transparent;
+        color: white;
+        text-decoration: none;
+    }
+
+    .dropdown__link:hover {
+        width: 20%;
+        display: block;
+        background-color: transparent;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-decoration: underline;
+    }
+
+
+    .nav__item:hover>.nav__dropdown {
+        display: block;
+    }
+
+
+
+    .header__cta {
+        display: block;
+        text-decoration: none;
+        border-radius: 5%;
+        text-align: center;
+        width: 10%;
+        padding: 1%;
+        color: var(--color-alfa);
+        background-color: var(--color-xi);
+    }
+
+    .header__cta:hover {
+        display: block;
+        text-decoration: none;
+        border-radius: 5%;
+        text-align: center;
+        width: 10%;
+        padding: 1%;
+        color: var(--color-alfa);
+        background-color: #40AFF9;
     }
 
     .product__title {
@@ -42,44 +163,29 @@
         padding-top: 5%;
     }
 
-    .nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+    .product__picture {
+        width: 100%;
     }
-
-
-    .nav__item {
-        padding: 2%;
-        position: relative;
+    .product__picture:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
     }
-
-    .nav__link {
+    .product__cta {
+        border-radius: 4px;
+        width: 40%;
+        font-size: 1.1rem;
+    }
+    .product__cta:hover {
+        width: 40%;
+        border-radius: 4px;
         text-decoration: none;
-        color: var(--color-alfa);
-        padding: 0 2%;
-    }
-
-
-    .nav__span {
-        transform: rotate(90deg);
-        display: block;
-        position: absolute;
-        left: 100%;
-        top: 19%;
-    }
-
-    .header__cta {
-        display: block;
-        text-decoration: none;
-        border-radius: 5%;
         text-align: center;
-        width: 10%;
-        padding: 1%;
+        display: block;
+        padding: 3% 1%;
+        background-color: #25F3F7;
         color: var(--color-alfa);
-        background-color: var(--color-xi);
-
     }
 
     .features__icon {
@@ -99,8 +205,16 @@
     }
 
     .details__cta {
-        width: 30%;
+        width: 20%;
         padding: 2% 1%;
+        border-radius: 4px;
+    }
+
+    .details__cta:hover {
+        width: 20%;
+        padding: 2% 1%;
+        border-radius: 4px;
+        background-color: var(--color-xi);
     }
 
 
@@ -200,6 +314,15 @@
         font-size: 0.9rem;
     }
 
+    .downloads__item:hover,
+    .links__item:hover,
+    .services__item:hover {
+        color: var(--color-alfa);
+        font-size: 0.9rem;
+    }
+
+
+
     .review__text {
         font-size: 1.3rem;
     }
@@ -207,4 +330,29 @@
     .review__stars {
         font-size: 1rem;
     }
+
+    .face:hover {
+        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+      }
+      
+    @keyframes shake {
+        10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+        }
+        
+        20%, 80% {
+          transform: translate3d(2px, 0, 0);
+        }
+      
+        30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+        }
+      
+        40%, 60% {
+          transform: translate3d(4px, 0, 0);
+        }
+      }
 }
