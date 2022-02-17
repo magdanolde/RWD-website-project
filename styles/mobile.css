@@ -44,21 +44,18 @@ label {
     padding-top: 0;
 }
 
-.nav__link {
+.nav__link,
+.nav__link-firstarrow,
+.nav__link-secondarrow {
     text-decoration: none;
     color: var(--color-rho);
     font-size: 1.2rem;
     
 }
 
-.nav__link--arrow {
-    text-decoration: none;
-    color: var(--color-rho);
-    font-size: 1.2rem;
-}
-
 .nav__link:hover,
-.nav__link--arrow:hover {
+.nav__link-firstarrow:hover,
+.nav__link-secondarrow:hover {
     color: var(--color-alfa);
     font-size: 1.2rem;
 }
