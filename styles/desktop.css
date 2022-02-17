@@ -19,14 +19,11 @@
         min-height: 8vh;
     }
 
-    .header__menu {
-        padding-top: 1%;
-    }
-
 
     .header__logo {
-        width: 13%;
-        height: 14%;
+        width: 10%;
+        height: 11%;
+        padding: 1%;
     }
 
 
