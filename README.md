@@ -1,5 +1,5 @@
 
-# 🐚 MY PROJECT IN A NUTSHELL 
+## 🐚 MY PROJECT IN A NUTSHELL 
 
 With this project I have built a website for an app company, Applab.
 
@@ -14,16 +14,16 @@ Main features of the project
   - hover effects
 
 
-# 💥 SEE MY PROJECT LIVE
+## 💥 SEE MY PROJECT LIVE
 
 
 
-# 👩‍💻 TECHNOLOGIES
+## 👩‍💻 TECHNOLOGIES
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-# 🤝 SPECIALTHANKS
+## 🤝 SPECIALTHANKS
 
 Thanks to my Mentor - devmentor.pl - for providing me with this task and for code review.
 The copyright of the design belongs to the respective authors of the content, colorlib.com (https://colorlib.com).
