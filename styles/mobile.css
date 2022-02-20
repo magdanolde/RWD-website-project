@@ -349,8 +349,9 @@ label {
     display: block;
     width: 25%;
     padding: 1%;
-    color: var(--color-gamma);
-    border: solid 2px var(--color-gamma);
+    color: var(--color-alfa);
+    border: solid 1px var(--color-gamma);
+    background-color: var(--color-gamma);
     margin: 0 auto;
 }
 
