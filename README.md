@@ -16,7 +16,7 @@ Main features of the project
 
 ## 💥 SEE MY PROJECT LIVE
 
-https://magdanolde.github.io/rwd-website-project/
+https://magdanolde.github.io/RWD-website-project/
 
 ## 👩‍💻 TECHNOLOGIES
 
