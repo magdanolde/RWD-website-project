@@ -23,6 +23,8 @@ With this project I have built a website for an app company, Applab.
 
 https://magdanolde.github.io/RWD-website-project/
 
+![Pic1](https://user-images.githubusercontent.com/83141358/205403368-1e01bb60-237a-4ced-b062-20d6cf3a1144.PNG)
+
 ### 💻 TECHNOLOGIES
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
