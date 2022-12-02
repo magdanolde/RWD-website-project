@@ -17,7 +17,7 @@ With this project I have built a website for an app company, Applab.
 
 ###  SOLUTIONS I STILL WANT TO ADD 
 
-* Mobile & tablet version
+* styling using a CSS preprocessor SASS.
 
 ### :boom: PROJECT LIVE 
 
